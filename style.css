@@ -1,7 +1,13 @@
+@font-face {
+  font-family: rubatomarchetti;
+  src: url('D:/Programmi/Marchetti/res/NeueMontreal-Regular.otf');
+}
+
 body{
   background: #fffdd0;
-  font-family: Arial;
+  font-family: rubatomarchetti;
 }
+
 
 /* body::-webkit-scrollbar {
   display: none;
@@ -17,9 +23,9 @@ body p{
   margin-left: 20px
 }
 
-footer{
-  text-align: center;
-}
+footer{  text-align: center; background: #333; margin-top: 80px; padding: 5px}
+
+footer p { color: white;}
 
 header{
   background: #fff;
